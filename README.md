@@ -1,2 +1,2 @@
 # Instagram-Bot
-Pyhton
+This bot only follows the instagram profiles.
