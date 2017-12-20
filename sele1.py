@@ -13,8 +13,8 @@ driver = webdriver.Chrome(path)
 driver.get("https://www.instagram.com")
 
 #provide username and password of account
-username='bca15.daksh'
-password='demo_7'
+username=""
+password=""
 
 driver.find_element_by_link_text('Log in').click()
 
