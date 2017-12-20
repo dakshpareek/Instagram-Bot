@@ -5,11 +5,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
+#download chromedriver from here "https://sites.google.com/a/chromium.org/chromedriver/downloads" and move it to this path
 path="C:\\Python27\\selenium\\webdriver\\chromedriver.exe"
 
 driver = webdriver.Chrome(path)
 driver.get("https://www.instagram.com")
 
+#provide username and password of account
 username='bca15.daksh'
 password='demo_7'
 
@@ -46,6 +49,6 @@ for i in all_links:
 		follow.click()
 	except Exception,e:
 		print "Already Following"
-i = 0
+		
 #driver.close()
 #driver.quit()
